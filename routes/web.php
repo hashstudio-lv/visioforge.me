@@ -60,7 +60,7 @@ Route::group(
         Route::get('/privacy', [\App\Http\Controllers\PageController::class, 'privacy'])->name('pages.privacy');
         Route::get('/terms', [\App\Http\Controllers\PageController::class, 'terms'])->name('pages.terms');
 
-        Route::get('/cookie-policy', [\App\Http\Controllers\PageController::class, 'cookiePolicy'])->name('pages.cookie-policy');
+        Route::get('/cookie-policy', [\App\Http\Controllers\PageController::class, 'cookie'])->name('pages.cookie-policy');
 
         Route::get('/{slug?}', [\App\Http\Controllers\PageController::class, 'show'])->name('pages.show');
 

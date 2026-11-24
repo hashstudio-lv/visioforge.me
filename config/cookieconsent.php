@@ -53,6 +53,6 @@ return [
     |
     */
 
-    'policy' => 'pages.cookie-policy',
+    'policy' => 'pages.cookie',
 
 ];
