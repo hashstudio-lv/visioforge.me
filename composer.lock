@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "43c091ea2210c119e4fb6cfa1c6c1217",
+    "content-hash": "0b51e70329a347f884a49679deabe7e9",
     "packages": [
         {
             "name": "astrotomic/laravel-translatable",
@@ -2974,6 +2974,46 @@
                 }
             ],
             "time": "2025-12-19T02:00:29+00:00"
+        },
+        {
+            "name": "lokus/servercheck",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Lokusok/lokus-servercheck.git",
+                "reference": "7bb0b7cc4a168aedcb37b3a37f5892b9ca8f832c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Lokusok/lokus-servercheck/zipball/7bb0b7cc4a168aedcb37b3a37f5892b9ca8f832c",
+                "reference": "7bb0b7cc4a168aedcb37b3a37f5892b9ca8f832c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Lokus\\ServerCheck\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "homepage": "https://github.com/Lokusok/lokus-servercheck",
+            "keywords": [
+                "CPU",
+                "check",
+                "ram",
+                "server"
+            ],
+            "support": {
+                "issues": "https://github.com/Lokusok/lokus-servercheck/issues",
+                "source": "https://github.com/Lokusok/lokus-servercheck/tree/v1.0.0"
+            },
+            "time": "2026-11-24T18:43:00+00:00"
         },
         {
             "name": "mcamara/laravel-localization",
