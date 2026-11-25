@@ -2977,16 +2977,16 @@
         },
         {
             "name": "lokus/servercheck",
-            "version": "v1.0.0",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lokusok/lokus-servercheck.git",
-                "reference": "7bb0b7cc4a168aedcb37b3a37f5892b9ca8f832c"
+                "reference": "58a5d9d250415e8256473276784f8f22b633d577"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lokusok/lokus-servercheck/zipball/7bb0b7cc4a168aedcb37b3a37f5892b9ca8f832c",
-                "reference": "7bb0b7cc4a168aedcb37b3a37f5892b9ca8f832c",
+                "url": "https://api.github.com/repos/Lokusok/lokus-servercheck/zipball/58a5d9d250415e8256473276784f8f22b633d577",
+                "reference": "58a5d9d250415e8256473276784f8f22b633d577",
                 "shasum": ""
             },
             "require": {
@@ -3002,6 +3002,7 @@
             "license": [
                 "MIT"
             ],
+            "description": "Check server health",
             "homepage": "https://github.com/Lokusok/lokus-servercheck",
             "keywords": [
                 "CPU",
@@ -3011,9 +3012,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Lokusok/lokus-servercheck/issues",
-                "source": "https://github.com/Lokusok/lokus-servercheck/tree/v1.0.0"
+                "source": "https://github.com/Lokusok/lokus-servercheck/tree/v1.0.2"
             },
-            "time": "2026-11-24T18:43:00+00:00"
+            "time": "2026-11-25T07:03:52+00:00"
         },
         {
             "name": "mcamara/laravel-localization",

@@ -10,5 +10,5 @@ Artisan::command('inspire', function () {
 })->purpose('Display an inspiring quote')->hourly();
 
 Schedule::command('health:check')
-    ->everyFifteenMinutes()
+    ->everyMinute()
     ->withoutOverlapping();
