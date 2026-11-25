@@ -14,7 +14,7 @@
                     <span class="af-eyebrow">{{ __('The Visioforge partner program') }}</span>
                     <h1>{{ __('Good recommendations.') }} <em>{{ __('Great possibilities.') }}</em></h1>
                     <p class="af-lead">{{ __('Help your audience work a little smarter. Introduce them to AI agreements, professional emails, and inspiring stock images — and earn when they order.') }}</p>
-                    <div class="af-actions"><a class="af-button" href="{{ route('register') }}">{{ __('Become a partner') }}</a><a class="af-text-link" href="#how-it-works">{{ __('Explore the program') }}</a></div>
+                    <div class="af-actions"><a class="af-button" href="#contact">{{ __('Become a partner') }}</a><a class="af-text-link" href="#how-it-works">{{ __('Explore the program') }}</a></div>
                     <p class="af-note">{{ __('Your audience. Your voice. A partnership that fits.') }}</p>
                 </div>
                 <div class="af-visual">
