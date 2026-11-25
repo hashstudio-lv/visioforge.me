@@ -45,9 +45,9 @@
 </div></div></section>
         <section class="af-contact" id="contact"><div class="af-wrap af-contact-layout"><div><span class="af-eyebrow">{{ __('Let’s work together') }}</span><h2>{{ __('The start of a') }}<br>{{ __('good partnership.') }}</h2><p>{{ __('Tell us about your audience and what you have in mind. Our team will help you take the next step.') }}</p><a class="af-text-link" href="{{ route('register') }}">{{ __('Ready to join? Create an account') }}</a></div>                <form class="af-form" action="{{ route('contact.store') }}" method="POST" data-affiliate-contact data-sending="{{ __('Sending…') }}" data-submit="{{ __('Send message') }}" data-error="{{ __('We couldn’t send your message. Please try again.') }}">
                     @csrf
-                    <label for="affiliate-name">{{ __('Your name') }}</label><input id="affiliate-name" name="name" autocomplete="name" placeholder="{{ __('How should we call you?') }}" maxlength="255" required>
-                    <label for="affiliate-email">{{ __('Email address') }}</label><input id="affiliate-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" maxlength="255" required>
-                    <label for="affiliate-message">{{ __('Tell us about your plans') }}</label><textarea id="affiliate-message" name="message" placeholder="{{ __('Your audience, your channels, or anything you’d like to ask…') }}" maxlength="1000" required></textarea>
+                    <label for="affiliate-name">{{ __('Your name') }}</label><input id="affiliate-name" name="name" autocomplete="name" placeholder="{{ __('Your full name') }}" maxlength="255" required>
+                    <label for="affiliate-email">{{ __('Email address') }}</label><input id="affiliate-email" name="email" type="email" autocomplete="email" placeholder="name@company.com" maxlength="255" required>
+                    <label for="affiliate-message">{{ __('Tell us about your plans') }}</label><textarea id="affiliate-message" name="message" placeholder="{{ __('Tell us about your business and how you would share Visioforge…') }}" maxlength="1000" required></textarea>
                     <button class="af-button" type="submit">{{ __('Send message') }}</button>
                     <p class="af-status" role="status" aria-live="polite"></p>
                 </form></div></section>
