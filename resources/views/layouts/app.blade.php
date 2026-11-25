@@ -385,7 +385,7 @@
                             {{ __('Usefull Links') }}
                         </h4>
                         <ul class="flex flex-col gap-y-3">
-                            @foreach ([['url' => route('home'), 'title' => __('Home')], ['url' => route('pages.agreements'), 'title' => __('Agreement Generation')], ['url' => route('pages.emails'), 'title' => __('Email Generation')], ['url' => route('products.index'), 'title' => __('Image Stock')], ['url' => route('pages.show', 'contact-us'), 'title' => __('Contact Us')]] as $item)
+                            @foreach ([['url' => route('pages.affiliates'), 'title' => __('Affiliates')], ['url' => route('home'), 'title' => __('Home')], ['url' => route('pages.agreements'), 'title' => __('Agreement Generation')], ['url' => route('pages.emails'), 'title' => __('Email Generation')], ['url' => route('products.index'), 'title' => __('Image Stock')], ['url' => route('pages.show', 'contact-us'), 'title' => __('Contact Us')]] as $item)
                                 <li>
                                     <a
                                         href="{{ $item['url'] }}"

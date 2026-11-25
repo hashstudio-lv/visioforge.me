@@ -62,6 +62,8 @@ Route::group(
 
         Route::get('/cookie-policy', [\App\Http\Controllers\PageController::class, 'cookie'])->name('pages.cookie-policy');
 
+        Route::view('/affiliates', 'pages.affiliates')->name('pages.affiliates');
+
         Route::get('/{slug?}', [\App\Http\Controllers\PageController::class, 'show'])->name('pages.show');
 
         Route::post('/contact', [\App\Http\Controllers\ContactController::class, 'store'])->name('contact.store');
